@@ -20,6 +20,6 @@ stopbutton.addEventListner('click', ()=>{
 	}
 })
 
-buttons.addEventListener("click" , ()=>{
+buttons.addEventListner("click" , ()=>{
     	console.log(button);
 })
