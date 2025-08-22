@@ -1,1 +1,20 @@
 /*  your css code here. If applicable */
+body{
+	background-color: violet;
+}
+.container{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 50%;
+	
+	
+	
+	
+	
+}
+button{
+  margin: 15px;
+	background-color: green;
+	color: white;
+}
