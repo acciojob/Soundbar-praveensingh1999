@@ -1,20 +1,41 @@
-/*  your css code here. If applicable */
-body{
+body {
 	background-color: violet;
-}
-.container{
 	display: flex;
-	align-items: center;
 	justify-content: center;
-	padding-top: 50%;
-	
-	
-	
-	
-	
+	align-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: sans-serif;
 }
-button{
-  margin: 15px;
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 15px;
+}
+
+button {
+	padding: 15px 25px;
+	margin: 10px;
 	background-color: green;
 	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	transition: 0.2s;
+}
+
+button:hover {
+	background-color: darkgreen;
+}
+
+.stop {
+	background-color: red;
+}
+
+.stop:hover {
+	background-color: darkred;
 }
